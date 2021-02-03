@@ -9,7 +9,7 @@ import datetime
 
 
 # закачиваем таблицу с черновыми данными парсинга за текущую дату
-df = pd.read_csv('AviroParserPrimaTransformed{}.csv'.format(datetime.datetime.today().strftime('%Y-%m-%d')), sep=';')
+df = pd.read_csv('AvitoParserPrimaTransformed{}.csv'.format(datetime.datetime.today().strftime('%Y-%m-%d')), sep=';')
 
 
 
@@ -69,7 +69,7 @@ for column in columns:
 
 # последний штрих. Дописываем в существующий csv
 
-aggregated_data.to_csv('AviroAggregated.csv', mode='a',header=False, index=False, sep=';', encoding='utf8')
+aggregated_data.to_csv('AvitoAggregated.csv', mode='a',header=False, index=False, sep=';', encoding='utf8')
 
 print('csv_saving_done:'.format(datetime.datetime.today().strftime('%Y-%m-%d')))
 

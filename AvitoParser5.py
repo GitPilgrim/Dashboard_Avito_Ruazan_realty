@@ -178,6 +178,6 @@ print(avito_counts.info())
 
 # последний штрих. записываем в csv c текущей датой
 
-avito_counts.to_csv('AviroParserPrima{}.csv'.format(datetime.datetime.today().strftime('%Y-%m-%d')), mode='w', index=False, sep=';', encoding='utf8')
+avito_counts.to_csv('AvitoParserPrima{}.csv'.format(datetime.datetime.today().strftime('%Y-%m-%d')), mode='w', index=False, sep=';', encoding='utf8')
    
 print('csv_saving_done:'.format(datetime.datetime.today().strftime('%Y-%m-%d')))

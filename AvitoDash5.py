@@ -113,12 +113,12 @@ app.layout = html.Div(children=[
     ])
 def update_figures(selected_rooms):
     # Читаем данные, которые понадобятся для борда
-    current_data = pd.read_csv('AviroParserPrimaTransformed2020-11-30.csv', sep=';')
+    current_data = pd.read_csv('AvitoParserPrimaTransformed2020-11-30.csv', sep=';')
     # настраиваем формат времени
     current_data['parsing_dt'] =pd.to_datetime(current_data['parsing_dt'],format='%Y-%m-%d %H:%M:%S')
     # удаляем неправдоподобные значения
     current_data = current_data.query('price > 500000 and rooms <10') 
-    last_data = pd.read_csv('AviroAggregated.csv', sep=';')
+    last_data = pd.read_csv('AvitoAggregated.csv', sep=';')
 
     # фильтруем данные с учетом выбранных параметров
     filtered_current_data = current_data.query('rooms in @selected_rooms')
