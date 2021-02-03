@@ -17,10 +17,10 @@
 3. Открыть браузер и ввести в адресной строке http://127.0.0.1:8050/
 
 ### Примеры визуализации:
-[1.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/image/Screenshot_m2.jpg)
-[2.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/image/Screenshot_median.jpg)
-[3.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/image/Screenshot_other.jpg)
-[4.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/image/Screenshot_price.jpg)
+![1.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/Screenshot_m2.jpg)
+![2.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/Screenshot_median.jpg)
+![3.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/Screenshot_other.jpg)
+![4.](https://github.com/GitPilgrim/Dashboard_Avito_Ruazan_realty/raw/main/Screenshot_price.jpg)
 
 
 
